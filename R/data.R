@@ -1,18 +1,26 @@
 # Data can be downloaded from the Gilad lab website.
 
-#' Filtered gene expression data, along with summarized FUCCI intensities
-#' and sample information. Contain the top 100 cyclic genes from our data.
+#' @name eset_final_sub
 #'
+#' @title Add title here.
 #'
-#' @format An ExpressionSet object with 888 samples and top 100 cyclicl genes.
-#'     \describe{
-#'        \item{\code{theta}}{Inferred angles}
-#'        \item{\code{exprs(est_final)}}{Molecule counts}
-#'      }
-"eset_final_sub"
+#' @description Filtered gene expression data, along with summarized
+#' FUCCI intensities and sample information. Contains the top 100
+#' cyclic genes from our data.
+#'
+#' @docType data
+#'
+#' @format An ExpressionSet object with 888 samples and top 100 cyclic genes.
+#' 
+#' \describe{
+#'   \item{\code{theta}}{Inferred angles}
+#'   \item{\code{exprs(est_final)}}{Molecule counts}
+#' }
+NULL
 
-
-#' Genes ordered by their cyclic trend (stronog to weak)
+#' @
+#'
+#' Genes ordered by their cyclic trend (stron to weak)
 #' and sample information
 #'
 #'

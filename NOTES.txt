@@ -1,0 +1,11 @@
+Comments/To-do
+==============
+
++ Explain in Description why it is called "peco".
+
++ If reasonable to do so, reduce size of data sets in "data" folder in
+  order to reduce installation time from GitHub.
+
++ Create a "release" on GitHub.
+
++ Add titles to roxygen docs for data sets.
